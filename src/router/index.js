@@ -20,7 +20,7 @@ import Layout from '../views/layout/Layout'
   }
 **/
 export const constantRouterMap = [
-  { path: '/wellcome', component: _import('wellcome/index'), hidden: true },
+  // { path: '/wellcome', component: _import('wellcome/index'), hidden: true },
   { path: '/login', component: _import('login/index'), hidden: true },
   { path: '/404', component: _import('404'), hidden: true },
 
